@@ -1,5 +1,6 @@
 (ns logs-cleaner.core-test
   (:require [clojure.test :refer :all]
+            [midje.sweet :refer :all]
             [logs-cleaner.core :refer :all]))
 
 (deftest a-test
